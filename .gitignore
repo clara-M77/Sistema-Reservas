@@ -1,0 +1,32 @@
+# Ignorar archivos compilados
+*.class
+
+# Ignorar carpetas de compilación y temporales
+bin/
+target/
+build/
+
+# Ignorar configuraciones de IDEs (Eclipse, IntelliJ, VSCode)
+.settings/
+.project
+.classpath
+.idea/
+.idea/**/
+*.iml
+.vscode/
+*.log
+
+# Ignorar archivos generados por Maven y Gradle
+*.war
+*.jar
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Ignorar archivos de sistema en Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
